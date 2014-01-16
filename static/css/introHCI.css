@@ -14,11 +14,18 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #6F5757;
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
+     color: #FFFFFF;
+
+}
+
+.jumbotron p{
+     font-variant: small-caps;
 }
 
 .jumbotron:after {
@@ -33,12 +40,22 @@ body {
      z-index: -1;	
 }
 
+h4{
+     color: #FFFFFF;
+}
+
+.project table{
+     vertical-align: middle;
+}
+
 p{
      font-variant: small-caps;
 }
 
 .project p {
      font-variant: small-caps;
+     text-align: center;
+     color: #000000;
 }
 
 #project1 {
